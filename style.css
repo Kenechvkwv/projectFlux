@@ -1,0 +1,57 @@
+/* Big Screen */
+@media screen and (min-width: 600px) {
+  .ms-kc1 {
+    margin-left: 650px;
+  }
+  #pfImage {
+    max-width: 500px;
+  }
+  .resImgee {
+    display: none;
+  }
+}
+
+/* small screen */
+@media screen and (max-width: 599px) {
+  .resImg {
+    display: none;
+  }
+}
+
+#requestDemo {
+  border: solid 1px rgb(4, 49, 4);
+}
+
+#requestDemo:hover {
+  border: none;
+  background-color: rgb(4, 49, 4);
+  color: white;
+  transition: all 1s ease;
+}
+
+.fs-kc1 {
+  font-size: 12px;
+}
+
+.fs-kc2 {
+  font-size: 50px;
+}
+
+.text-green {
+  color: rgb(4, 49, 4);
+}
+
+.btn-green {
+  border: solid 1px rgb(4, 49, 4);
+}
+
+.btn-green:hover {
+  border: none;
+  background-color: rgb(4, 49, 4);
+  color: white;
+  transition: all 1s ease;
+}
+
+p {
+  letter-spacing: 3px;
+}
